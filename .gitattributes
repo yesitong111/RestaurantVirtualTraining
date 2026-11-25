@@ -1,0 +1,24 @@
+# Normalize line endings; Unity YAML and C# stay text for sane diffs on GitHub.
+* text=auto
+
+*.cs     text diff=csharp
+*.shader text
+*.cginc  text
+*.hlsl   text
+*.compute text
+*.unity  text
+*.asset  text
+*.meta   text
+*.prefab text
+*.mat    text
+*.anim   text
+*.controller text
+*.mask   text
+*.unitypackage binary
+*.png    binary
+*.jpg    binary
+*.jpeg   binary
+*.psd    binary
+*.fbx    binary
+*.dll    binary
+*.exe    binary
